@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .profile-thumb,
 .fh5co-cover .display-tc .profile-thumb {
-  background-size: cover !important;
+  background-size: cover  ;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #FF9000  ;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-features .feature-left p a {
-  color: #000 !important;
+  color: #000  ;
 }
 
 #fh5co-about,
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #FF9000;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #fff !important;
+  color: #fff  ;
 }
 
 .info {
@@ -507,12 +507,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-panel {
-    width: 85% !important;
+    width: 85%  ;
   }
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-panel {
-    width: 75% !important;
+    width: 75%  ;
   }
   .timeline > li > .timeline-panel:before {
     top: 30px;
@@ -542,12 +542,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-badge {
-    margin-left: -10px !important;
+    margin-left: -10px  ;
   }
 }
 @media screen and (max-width: 992px) {
   .timeline > li > .timeline-badge {
-    margin-left: -10px !important;
+    margin-left: -10px  ;
   }
 }
 .timeline > li > .timeline-badge i {
@@ -669,19 +669,19 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: none;
 }
 .progress-bar.progress-bar-1 {
-  background-color: #2980b9 !important;
+  background-color: #2980b9  ;
 }
 .progress-bar.progress-bar-2 {
-  background-color: #c0392b !important;
+  background-color: #c0392b  ;
 }
 .progress-bar.progress-bar-3 {
-  background-color: #d35400 !important;
+  background-color: #d35400  ;
 }
 .progress-bar.progress-bar-4 {
-  background-color: #8e44ad !important;
+  background-color: #8e44ad  ;
 }
 .progress-bar.progress-bar-5 {
-  background-color: #27ae60 !important;
+  background-color: #27ae60  ;
 }
 
 .chart {
@@ -792,14 +792,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
-  margin-bottom: 20px !important;
+  margin-bottom: 20px  ;
 }
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-started .btn {
   height: 54px;
-  border: none !important;
+  border: none  ;
   background: #fff;
   color: #FF9000;
   font-size: 16px;
@@ -860,7 +860,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 18px !important;
+  font-size: 18px  ;
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .blog-text .stuff {
@@ -922,7 +922,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-consult .video, #fh5co-consult .choose {
-    width: 100% !important;
+    width: 100%  ;
   }
 }
 #fh5co-consult .video {
@@ -1100,14 +1100,14 @@ input[type="text"] {
   padding: 8px 20px;
 }
 .btn.btn-md {
-  padding: 8px 20px !important;
+  padding: 8px 20px  ;
 }
 .btn.btn-lg {
-  padding: 18px 36px !important;
+  padding: 18px 36px  ;
 }
 .btn:hover, .btn:active, .btn:focus {
-  box-shadow: none !important;
-  outline: none !important;
+  box-shadow: none  ;
+  outline: none  ;
 }
 
 .btn-primary {
@@ -1116,8 +1116,8 @@ input[type="text"] {
   border: 2px solid #FF9000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: #ff9b1a  ;
+  border-color: #ff9b1a  ;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1135,8 +1135,8 @@ input[type="text"] {
   border: 2px solid #5cb85c;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
+  background: #4cae4c  ;
+  border-color: #4cae4c  ;
 }
 .btn-success.btn-outline {
   background: transparent;
@@ -1154,8 +1154,8 @@ input[type="text"] {
   border: 2px solid #5bc0de;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
-  background: #46b8da !important;
-  border-color: #46b8da !important;
+  background: #46b8da  ;
+  border-color: #46b8da  ;
 }
 .btn-info.btn-outline {
   background: transparent;
@@ -1173,8 +1173,8 @@ input[type="text"] {
   border: 2px solid #f0ad4e;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
-  background: #eea236 !important;
-  border-color: #eea236 !important;
+  background: #eea236  ;
+  border-color: #eea236  ;
 }
 .btn-warning.btn-outline {
   background: transparent;
@@ -1192,8 +1192,8 @@ input[type="text"] {
   border: 2px solid #d9534f;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-  background: #d43f3a !important;
-  border-color: #d43f3a !important;
+  background: #d43f3a  ;
+  border-color: #d43f3a  ;
 }
 .btn-danger.btn-outline {
   background: transparent;
@@ -1259,21 +1259,21 @@ input[type="text"] {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 4em  ;
 }
 
 .row-pb-sm {
-  padding-bottom: 2em !important;
+  padding-bottom: 2em  ;
 }
 
 .nopadding {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0  ;
+  margin: 0  ;
 }
 
 .col-padding {
-  padding: 6px !important;
-  margin: 0px !important;
+  padding: 6px  ;
+  margin: 0px  ;
 }
 
 .fh5co-loader {
@@ -1290,6 +1290,40 @@ input[type="text"] {
   opacity: 0;
 }
 
-.outer-footer {
+.footer-shadow {
   text-align: center;
+  padding: 30px 0;
+  box-shadow: inset 0 15px 10px -10px gray;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container_contact {
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
